@@ -7,7 +7,7 @@ cask "nuticast" do
   desc "Xcode wireless debugging for an iPhone on a different Wi-Fi, over a mesh VPN"
   homepage "https://www.nuticast.com/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Nuticast.app"
   binary "#{appdir}/Nuticast.app/Contents/Helpers/nuticast"
